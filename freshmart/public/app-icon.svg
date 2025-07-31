@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="#22c55e"/>
+  
+  <!-- White background for icon -->
+  <circle cx="256" cy="256" r="200" fill="white"/>
+  
+  <!-- Shopping Cart -->
+  <g transform="translate(256, 256)">
+    <!-- Cart body -->
+    <path d="M-60 -40 L-60 -20 L-40 -20 L-30 40 L40 40 L50 -20 L-40 -20" 
+          fill="#22c55e" stroke="#1a9e47" stroke-width="3"/>
+    
+    <!-- Cart handle -->
+    <path d="M-60 -40 L-70 -40 L-70 -60 L-50 -60 L-50 -40" 
+          fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Cart wheels -->
+    <circle cx="-15" cy="55" r="8" fill="#22c55e"/>
+    <circle cx="25" cy="55" r="8" fill="#22c55e"/>
+    
+    <!-- Fresh leaf decoration -->
+    <g transform="translate(-10, -10)">
+      <path d="M0 0 Q-15 -15 -5 -25 Q5 -15 0 0 Q15 -10 10 -20 Q20 -5 0 0" 
+            fill="#16a34a"/>
+    </g>
+    
+    <!-- Additional leaves -->
+    <g transform="translate(15, -5)">
+      <path d="M0 0 Q-10 -10 -3 -15 Q3 -10 0 0 Q10 -5 7 -12 Q12 -3 0 0" 
+            fill="#16a34a"/>
+    </g>
+  </g>
+  
+  <!-- Fresh guarantee star -->
+  <g transform="translate(380, 140)">
+    <path d="M0 -15 L5 -5 L15 -5 L8 2 L10 12 L0 7 L-10 12 L-8 2 L-15 -5 L-5 -5 Z" 
+          fill="#fbbf24"/>
+  </g>
+</svg>
